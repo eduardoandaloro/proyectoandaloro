@@ -2,17 +2,15 @@
     padding: 0;
     margin: 0;
 }
-
 .menuheader ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-
 .menuheader ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(78, 75, 75);
 }
 .menuheader ul li a:hover {
     color: aqua;
@@ -24,7 +22,7 @@
 /******* mobile GALERIA *******/
 @media only screen and ( max-width:600px){
     div{
-        background-color: #0c0c0c;
+        background-color: #35383b;
     }
     #grilla{
         display: grid;
@@ -54,7 +52,7 @@
 @media only screen and ( min-width:992px){
 
     div{
-        background-color: rgb(12, 11, 11);
+        background-color: rgb(41, 53, 53);
     }
 
     #grilla{
@@ -81,7 +79,7 @@ img{
 
 ul{
     list-style-type: none;
-    background-color: black;
+    background-color: rgb(80, 76, 76);
 }
 
 div{
@@ -127,58 +125,8 @@ a{
     text-decoration: none;
     line-height: 2;
 }
-
-.btn{
-    border-radius: 3px;
-    display: inline-block;
-    padding: 20px 15px;
-    text-decoration: none;
-    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
-    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
-}
-
-.btn-green{
-    color: white;
-    background-color: #3cc93f;
-}
-.btn-green:hover{
-    background-color: #37b839;
-}
-.btn-green:active{
-    background-color: #29962a;
-}
-
-form{
-    background-color: rgb(213, 233, 231);
-    border-radius: 3px;
-    padding: 20px;
-    color: rgb(9, 9, 10);
-    font-size: 12px;
-   margin: 0 auto;
-   width: 300px;
-
-}
-  input, textarea{
-      border: 0;
-      outline: none;
-      width: 280px;
-  }  
-
-.field{
-    border: solid 1px rgb(17, 3, 44);
-    padding: 10px;
-
-    width: 280px;
-}
-.field:focus{
-    border-color: aquamarine;
-}
-.center-content{
-    text-align: center;
-}
-
 footer{
-    background-color: black;
+    background-color: #0a0a0a;
     
 }
 .parrafo{
