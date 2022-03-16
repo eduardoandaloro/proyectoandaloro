@@ -1,0 +1,62 @@
+.menuheader ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuheader ul li a {
+    text-decoration: none;
+    color:rgb(47, 55, 56); 
+}
+.menuheader ul li a:hover {
+    color: aqua;
+}
+.menuheader ul li {
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+/****** mobile INDEX *******/
+@media only screen and ( max-width:600px){
+    .grillaimg{
+        display: grid;
+        height: 850px;
+        grid-template-columns: 100%;
+        grid-template-rows: 125px 125px 125px 125px 125px 125px;
+        grid-template-areas:"img1"
+                            "img2"
+                            "img3"
+                            "img4"
+                            "img5"
+                            "img6";
+        justify-content: center;
+        gap: 20px;
+        
+    }
+    .menuheader ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+/******* escritorio INDEX *******/
+@media only screen and ( min-width:992px){
+    .grillaimg{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 48% 48% 48%;
+        grid-template-areas: "img1 img2 foto3"
+                              "img4 img5 foto6";
+        justify-content: center;
+        gap: 25px;
+    }
+    ul{
+        height: 120px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
