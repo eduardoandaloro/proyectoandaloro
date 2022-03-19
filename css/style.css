@@ -1,13 +1,12 @@
 /******* escritorio GALERIA *******/
 @media only screen and (min-width: 992px) {
   div {
-    background-color: #2f3738; }
+    background-color: #034d57; }
   #grilla {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     grid-template-rows: 48% 48% 48%;
-    grid-template-areas: "foto1 foto2 foto3"
- "foto4 foto5 foto6";
+    grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6";
     justify-content: center;
     gap: 10px; }
   ul {
@@ -15,23 +14,18 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center; } 
-  }
+    align-items: center; } }
+
 /******* mobile GALERIA *******/
 @media only screen and (max-width: 600px) {
   div {
-    background-color: #2f3738; }
+    background-color: #034d57; }
   #grilla {
     display: grid;
     height: 1300px;
     grid-template-columns: 100%;
     grid-template-rows: 200px 200px 200px 200px 200px 200px;
-    grid-template-areas: "foto1"
- "foto2"
- "foto3"
- "foto4"
- "foto5"
- "foto6";
+    grid-template-areas: "foto1" "foto2" "foto3" "foto4" "foto5" "foto6";
     justify-content: center;
     justify-content: space-between;
     gap: 15px; }
@@ -40,8 +34,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center; } 
-  }
+    align-items: center; } }
+
 .menuheader ul {
   display: flex;
   flex-direction: row;
@@ -50,7 +44,7 @@
 
 .menuheader ul li a {
   text-decoration: none;
-  color: #2f3738; }
+  color: #034d57; }
 
 .menuheader ul li a:hover {
   color: aqua; }
@@ -66,28 +60,22 @@
     height: 850px;
     grid-template-columns: 100%;
     grid-template-rows: 125px 125px 125px 125px 125px 125px;
-    grid-template-areas: "img1"
- "img2"
- "img3"
- "img4"
- "img5"
- "img6";
+    grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6";
     justify-content: center;
     gap: 20px; }
   .menuheader ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; } 
-  }
+    align-items: center; } }
+
 /******* escritorio INDEX *******/
 @media only screen and (min-width: 992px) {
   .grillaimg {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     grid-template-rows: 48% 48% 48%;
-    grid-template-areas: "img1 img2 foto3"
- "img4 img5 foto6";
+    grid-template-areas: "img1 img2 foto3" "img4 img5 foto6";
     justify-content: center;
     gap: 25px; }
   ul {
@@ -95,8 +83,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center; } 
-  }
+    align-items: center; } }
+
 * {
   margin: 0px;
   padding: 0px; }
@@ -107,7 +95,7 @@ img {
 
 ul {
   list-style-type: none;
-  background-color: #2f3738; }
+  background-color: #034d57; }
 
 div {
   width: 100%; }
@@ -123,7 +111,7 @@ h1 {
   background-position: center; }
 
 h2 {
-  background-color: #2f3738;
+  background-color: #034d57;
   font-style: italic;
   font-size: 50px;
   font-family: "supermercado one", cursive;
@@ -153,7 +141,7 @@ footer {
   text-align: center; }
 
 .fondomain {
-  background-color: #2f3738; }
+  background-color: #034d57; }
 
 .img1 {
   height: 50%;

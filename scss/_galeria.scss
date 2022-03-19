@@ -2,7 +2,7 @@
 @media only screen and ( min-width:992px){
 
     div{
-        background-color: rgb(47, 55, 56); 
+        background-color: $primercolor 
     }
 
     #grilla{
@@ -25,7 +25,7 @@
 /******* mobile GALERIA *******/
 @media only screen and ( max-width:600px){
     div{
-        background-color: rgb(47, 55, 56);
+        background-color: $primercolor
     }
     #grilla{
         display: grid;
