@@ -1,9 +1,10 @@
 /******* escritorio GALERIA *******/
 @media only screen and (min-width: 992px) {
   div {
-    background-color: #034d57; }
+    background-color: #044d57; }
   #grilla {
     display: grid;
+    height: 1000px;
     grid-template-columns: 30% 30% 30%;
     grid-template-rows: 48% 48% 48%;
     grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6";
@@ -19,16 +20,16 @@
 /******* mobile GALERIA *******/
 @media only screen and (max-width: 600px) {
   div {
-    background-color: #034d57; }
+    background-color: #044d57; }
   #grilla {
     display: grid;
-    height: 1300px;
+    height: 3000px;
     grid-template-columns: 100%;
-    grid-template-rows: 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 480px 480px 480px 480px 480px 480px;
     grid-template-areas: "foto1" "foto2" "foto3" "foto4" "foto5" "foto6";
     justify-content: center;
     justify-content: space-between;
-    gap: 15px; }
+    gap: 5px; }
   ul {
     height: 300px;
     display: flex;
@@ -44,7 +45,7 @@
 
 .menuheader ul li a {
   text-decoration: none;
-  color: #034d57; }
+  color: #044d57; }
 
 .menuheader ul li a:hover {
   color: aqua; }
@@ -57,9 +58,9 @@
 @media only screen and (max-width: 600px) {
   .grillaimg {
     display: grid;
-    height: 850px;
+    height: 3050px;
     grid-template-columns: 100%;
-    grid-template-rows: 125px 125px 125px 125px 125px 125px;
+    grid-template-rows: 490px 490px 490px 490px 490px 490px;
     grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6";
     justify-content: center;
     gap: 20px; }
@@ -73,11 +74,12 @@
 @media only screen and (min-width: 992px) {
   .grillaimg {
     display: grid;
+    height: 1000px;
     grid-template-columns: 30% 30% 30%;
     grid-template-rows: 48% 48% 48%;
     grid-template-areas: "img1 img2 foto3" "img4 img5 foto6";
     justify-content: center;
-    gap: 25px; }
+    gap: 20px; }
   ul {
     height: 120px;
     display: flex;
@@ -91,11 +93,20 @@
 
 img {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  padding: auto;
+  margin: auto;
+  padding-top: 5px; }
+
+.img1 {
+  height: 200px;
+  padding: auto;
+  margin: auto;
+  justify-content: center; }
 
 ul {
   list-style-type: none;
-  background-color: #034d57; }
+  background-color: #044d57; }
 
 div {
   width: 100%; }
@@ -106,23 +117,23 @@ h1 {
   font-family: "roboto" , sans-serif;
   text-align: center;
   text-decoration: underline;
-  background-image: url(../img/thewitcher.jpeg);
+  background-image: url("../img/thewitcher.jpeg");
   background-size: cover;
   background-position: center; }
 
 h2 {
-  background-color: #034d57;
+  background-color: #044d57;
   font-style: italic;
   font-size: 50px;
   font-family: "supermercado one", cursive;
   text-align: center; }
 
 p {
-  color: #0a0a0a;
-  font-size: 30px;
+  color: black;
+  font-size: 20px;
   line-height: 2;
-  margin-top: 30px;
-  padding: 10px;
+  margin-top: 20px;
+  padding: 6px;
   border: 2px solid #383737; }
 
 a {
@@ -132,18 +143,43 @@ a {
 footer {
   background-color: #0a0a0a; }
 
-.parrafo {
+.texto, .texto1 {
   color: aqua;
   text-align: center; }
 
-.parrafo1 {
-  color: aqua;
-  text-align: center; }
+.texto1 {
+  color: aqua; }
+
+.estilocard .card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #3498db; }
+
+.estilocard .card p {
+  padding: 0 1rem;
+  font-size: 5px;
+  font-weight: 300; }
+
+.card {
+  width: 250px;
+  height: 440px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 10px;
+  text-align: center;
+  transition: all 0.25s; }
+
+.card:hover {
+  transform: translateY(15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
+
+.card img {
+  width: 220px;
+  height: 170px; }
+
+.card h4 {
+  font-weight: 600; }
 
 .fondomain {
-  background-color: #034d57; }
-
-.img1 {
-  height: 50%;
-  width: 50%;
-  justify-content: center; }
+  background-color: #044d57; }

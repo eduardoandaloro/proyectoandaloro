@@ -20,9 +20,9 @@
 @media only screen and ( max-width:600px){
     .grillaimg{
         display: grid;
-        height: 850px;
+        height: 3050px;
         grid-template-columns: 100%;
-        grid-template-rows: 125px 125px 125px 125px 125px 125px;
+        grid-template-rows: 490px 490px 490px 490px 490px 490px;
         grid-template-areas:"img1"
                             "img2"
                             "img3"
@@ -45,12 +45,13 @@
 @media only screen and ( min-width:992px){
     .grillaimg{
         display: grid;
+        height: 1000px;
         grid-template-columns: 30% 30% 30%;
         grid-template-rows: 48% 48% 48%;
         grid-template-areas: "img1 img2 foto3"
                               "img4 img5 foto6";
         justify-content: center;
-        gap: 25px;
+        gap: 20px;
     }
     ul{
         height: 120px;

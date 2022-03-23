@@ -7,6 +7,7 @@
 
     #grilla{
         display: grid;
+        height: 1000px;
         grid-template-columns: 30% 30% 30% ;
         grid-template-rows: 48% 48% 48%;
         grid-template-areas: "foto1 foto2 foto3"
@@ -29,9 +30,9 @@
     }
     #grilla{
         display: grid;
-        height: 1300px;
+        height: 3000px;
         grid-template-columns: 100%;
-        grid-template-rows: 200px 200px 200px 200px 200px 200px;
+        grid-template-rows: 480px 480px 480px 480px 480px 480px;
         grid-template-areas: "foto1"
                              "foto2"
                              "foto3"
@@ -40,7 +41,7 @@
                              "foto6";
         justify-content: center;
         justify-content: space-between;
-        gap: 15px;
+        gap: 5px;
         
     }
     ul{
