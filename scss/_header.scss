@@ -1,19 +1,6 @@
-.menuheader ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-.menuheader ul li a {
-    text-decoration: none;
-    color:$primercolor 
-}
-.menuheader ul li a:hover {
-    color: aqua;
-}
-.menuheader ul li {
-    list-style-type: none;
-    margin: 0 20px;
+*{
+    margin: 0;
+    padding: 0;
 }
 
 /****** mobile INDEX *******/
