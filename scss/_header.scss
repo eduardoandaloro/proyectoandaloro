@@ -3,48 +3,29 @@
     padding: 0;
 }
 
+.header-index{
+    
+    background-image: url(../img/logo6.jpg);
+    object-fit: cover;
+    height: 800px;
+    flex-wrap: wrap;
+}
+header{
+    background-image: url(../img/thewitcher.jpeg);
+    object-fit: cover;
+    height: 400px;
+}
 /****** mobile INDEX *******/
 @media only screen and ( max-width:600px){
-    .grillaimg{
-        display: grid;
-        height: 3050px;
-        grid-template-columns: 100%;
-        grid-template-rows: 490px 490px 490px 490px 490px 490px;
-        grid-template-areas:"img1"
-                            "img2"
-                            "img3"
-                            "img4"
-                            "img5"
-                            "img6";
-        justify-content: center;
-        gap: 20px;
-        
-    }
-    .menuheader ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+   .header-index{
+       height: 1200px;
+   }
+    .iconos{
+        background-color: $primercolor;
     }
     
 }
 /******* escritorio INDEX *******/
 @media only screen and ( min-width:992px){
-    .grillaimg{
-        display: grid;
-        height: 1000px;
-        grid-template-columns: 30% 30% 30%;
-        grid-template-rows: 48% 48% 48%;
-        grid-template-areas: "img1 img2 foto3"
-                              "img4 img5 foto6";
-        justify-content: center;
-        gap: 20px;
-    }
-    ul{
-        height: 120px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-    }
+  
 }
